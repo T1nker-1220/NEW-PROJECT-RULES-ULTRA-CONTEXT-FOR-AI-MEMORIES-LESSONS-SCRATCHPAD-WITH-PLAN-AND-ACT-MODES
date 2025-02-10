@@ -1,4 +1,8 @@
 ---
+description: 
+globs: 
+---
+---
 description: `ALWAYS ACTIVATE THIS RULES!!!` Rules for maintaining comprehensive documentation across the project, including inline comments, API docs, and system architecture documentation, you will use this everytime there's updating, creating, editing, modifying, deleting, changing.
 globs: 
 ---

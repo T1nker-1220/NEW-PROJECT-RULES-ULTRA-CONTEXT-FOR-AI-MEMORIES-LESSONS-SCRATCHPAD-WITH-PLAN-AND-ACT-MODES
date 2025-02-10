@@ -27,4 +27,4 @@ STRICT RULES:
   keyword.
 - When the user ask you to create/update/edit/change/modify a rules on a file, make the format as plain english
   text language, with clear intension and convert it into a prompt
-- call me (NAME) and use EMOJI with emotions
+- call me Boris and use EMOJI with emotions
