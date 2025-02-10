@@ -78,115 +78,135 @@
 
 ## Project Roadmap (Updated Implementation Sequence)
 
-### Phase 1 - Core Accounting Features (2-3 weeks)
+### Epic 1 - Core Accounting Features (2-3 weeks)
 **Implementation Order**:
-1. **Project Infrastructure Setup** (1 day)
-   - Supabase initialization
-   - Next.js boilerplate with TypeScript
-   - Core component structure
-   - Error boundary setup
+1. **Feature 1.1 - Project Infrastructure Setup** (1 day)
+   - User Story 1.1.1 - Supabase initialization
+   - User Story 1.1.2 - Next.js boilerplate with TypeScript
+   - User Story 1.1.3 - Core component structure
+   - User Story 1.1.4 - Error boundary setup
 
-2. **Calculation Engine Foundation** (5 days)
-   - [ ] Math.js integration
-   - [ ] Depreciation calculator (straight-line)
-   - [ ] Financial ratio formulas
-   - [ ] Calculation validation system
-   - [ ] Unit test setup
 
-3. **Financial Statement Templates** (4 days)
-   - [ ] Balance sheet component
-   - [ ] Income statement builder
-   - [ ] PDF export functionality
-   - [ ] Data validation schemas
 
-4. **Local Data Management** (3 days)
-   - [ ] Local storage integration
-   - [ ] Data encryption setup
-   - [ ] Historical versioning
-   - [ ] CSV export (basic)
+2. **Feature 1.2 - Calculation Engine Foundation** (5 days)
+   - User Story 1.2.1 - Math.js integration
+   - User Story 1.2.2 - Depreciation calculator (straight-line)
+   - User Story 1.2.3 - Financial ratio formulas
+   - User Story 1.2.4 - Calculation validation system
+   - User Story 1.2.5 - Unit test setup
 
-5. **UI/UX Foundation** (3 days)
-   - [ ] Mobile-first responsive layout
-   - [ ] Accessible form components
-   - [ ] Data visualization (Recharts)
-   - [ ] Dark mode support
-   - [ ] Loading/error states
 
-6. **Basic Security** (2 days)
-   - [ ] Input sanitization
-   - [ ] Audit logging
-   - [ ] Rate limiting
-   - [ ] Error boundaries
+3. **Feature 1.3 - Financial Statement Templates** (4 days)
+   - User Story 1.3.1 - Balance sheet component
+   - User Story 1.3.2 - Income statement builder
+   - User Story 1.3.3 - PDF export functionality
+   - User Story 1.3.4 - Data validation schemas
 
-### Phase 2 - Data Management (1-2 weeks)
+
+4. **Feature 1.4 - Local Data Management** (3 days)
+   - User Story 1.4.1 - Local storage integration
+   - User Story 1.4.2 - Data encryption setup
+   - User Story 1.4.3 - Historical versioning
+   - User Story 1.4.4 - CSV export (basic)
+
+
+5. **Feature 1.5 - UI/UX Foundation** (3 days)
+   - User Story 1.5.1 - Mobile-first responsive layout
+   - User Story 1.5.2 - Accessible form components
+   - User Story 1.5.3 - Data visualization (Recharts)
+   - User Story 1.5.4 - Dark mode support
+   - User Story 1.5.5 - Loading/error states
+
+
+6. **Feature 1.6 - Basic Security** (2 days)
+   - User Story 1.6.1 - Input sanitization
+   - User Story 1.6.2 - Audit logging
+   - User Story 1.6.3 - Rate limiting
+   - User Story 1.6.4 - Error boundaries
+
+
+### Epic 2 - Data Management (1-2 weeks)
 **Priority**: ★★★☆☆
 **Implementation Order**:
-1. **Authentication System** (3 days)
-   - [ ] Supabase auth setup
-   - [ ] User profile management
-   - [ ] Session management
-   - [ ] Basic RBAC roles
+1. **Feature 2.1 - Authentication System** (3 days)
 
-2. **Cloud Data Migration** (4 days)
-   - [ ] Supabase database schema
-   - [ ] Local → Cloud migration tool
-   - [ ] Data encryption at rest
-   - [ ] Conflict resolution
+   - User Story 2.1.1 - Supabase auth setup
+   - User Story 2.1.2 - User profile management
+   - User Story 2.1.3 - Session management
+   - User Story 2.1.4 - Basic RBAC roles
 
-3. **Advanced CSV Handling** (3 days)
-   - [ ] Bulk import/export
-   - [ ] Data validation rules
-   - [ ] Template system
-   - [ ] Error reporting
 
-### Phase 3 - Collaboration Features (2 weeks)
+2. **Feature 2.2 - Cloud Data Migration** (4 days)
+   - User Story 2.2.1 - Supabase database schema
+   - User Story 2.2.2 - Local → Cloud migration tool
+   - User Story 2.2.3 - Data encryption at rest
+   - User Story 2.2.4 - Conflict resolution
+
+
+3. **Feature 2.3 - Advanced CSV Handling** (3 days)
+   - User Story 2.3.1 - Bulk import/export
+   - User Story 2.3.2 - Data validation rules
+   - User Story 2.3.3 - Template system
+   - User Story 2.3.4 - Error reporting
+
+
+### Epic 3 - Collaboration Features (2 weeks)
 **Priority**: ★★☆☆☆
 **Implementation Order**:
-1. **Realtime Foundation** (3 days)
-   - [ ] Supabase Realtime setup
-   - [ ] Presence indicators
-   - [ ] Basic co-editing
-   - [ ] Connection status
+1. **Feature 3.1 - Realtime Foundation** (3 days)
 
-2. **Version Control** (4 days)
-   - [ ] Change tracking
-   - [ ] Version history
-   - [ ] Snapshot system
-   - [ ] Rollback functionality
+   - User Story 3.1.1 - Supabase Realtime setup
+   - User Story 3.1.2 - Presence indicators
+   - User Story 3.1.3 - Basic co-editing
+   - User Story 3.1.4 - Connection status
 
-3. **Collaboration Tools** (3 days)
-   - [ ] Comments system
-   - [ ] @mentions
-   - [ ] Notifications
-   - [ ] Activity feed
+
+2. **Feature 3.2 - Version Control** (4 days)
+   - User Story 3.2.1 - Change tracking
+   - User Story 3.2.2 - Version history
+   - User Story 3.2.3 - Snapshot system
+   - User Story 3.2.4 - Rollback functionality
+
+
+
+3. **Feature 3.3 - Collaboration Tools** (3 days)
+   - User Story 3.3.1 - Comments system
+   - User Story 3.3.2 - @mentions
+   - User Story 3.3.3 - Notifications
+   - User Story 3.3.4 - Activity feed
+
 
 ------`don't read and implement this phase 4, this is just for you to know the future features that we will implement`------
 ### Phase 4 - Advanced Features (Optional)
 **Priority**: ★☆☆☆☆
 **Implementation Order**:
-1. **Bank Integrations** (5 days)
-   - [ ] Plaid sandbox setup
-   - [ ] Transaction import
-   - [ ] Reconciliation tools
-   - [ ] Webhook handlers
+1. **Feature 4.1 - Bank Integrations** (5 days)
+   - User Story 4.1.1 - Plaid sandbox setup
+   - User Story 4.1.2 - Transaction import
+   - User Story 4.1.3 - Reconciliation tools
+   - User Story 4.1.4 - Webhook handlers
 
-2. **Multi-currency** (3 days)
-   - [ ] Exchange rate system
-   - [ ] Currency converter
-   - [ ] Localization
-   - [ ] FX gain/loss calc
 
-3. **Automation** (4 days)
-   - [ ] Tax rule engine
-   - [ ] Scheduled reports
-   - [ ] Compliance checks
-   - [ ] Audit trails
+2. **Feature 4.2 - Multi-currency** (3 days)
+   - User Story 4.2.1 - Exchange rate system
+   - User Story 4.2.2 - Currency converter
+   - User Story 4.2.3 - Localization
+   - User Story 4.2.4 - FX gain/loss calc
 
-4. **Advanced Reporting** (3 days)
-   - [ ] Custom templates
-   - [ ] Data visualization
-   - [ ] Executive dashboards
-   - [ ] Export formats
+
+3. **Feature 4.3 - Automation** (4 days)
+   - User Story 4.3.1 - Tax rule engine
+   - User Story 4.3.2 - Scheduled reports
+   - User Story 4.3.3 - Compliance checks
+   - User Story 4.3.4 - Audit trails
+
+
+4. **Feature 4.4 - Advanced Reporting** (3 days)
+   - User Story 4.4.1 - Custom templates
+   - User Story 4.4.2 - Data visualization
+   - User Story 4.4.3 - Executive dashboards
+   - User Story 4.4.4 - Export formats
+
 
 ------`don't read and implement this phase 4, this is just for you to know the future features that we will implement`------
 
@@ -209,22 +229,85 @@
 
 ## Architecture Guidelines
 
-### 1. Modular Structure
+### 1. File and Folder Structure
 ```
 src/
 ├── app/               # Next.js app router
+│   ├── (auth)/        # Authentication routes
+│   │   ├── login.tsx  # Login page
+│   │   ├── register.tsx # Registration page
+│   │   └── reset-password.tsx # Password reset page
+│   ├── (dashboard)/   # Protected dashboard routes
+│   │   ├── index.tsx  # Dashboard home
+│   │   ├── reports.tsx # Reports page
+│   │   └── settings.tsx # Settings page
+│   ├── api/           # API route handlers
+│   │   ├── auth.ts    # Auth API handler
+│   │   └── data.ts    # Data API handler
+│   └── layout.tsx     # Root layout
 ├── components/        # Reusable UI components
 │   ├── core/          # Base components (buttons, inputs)
+│   │   ├── Button/    # Button variants
+│   │   │   ├── PrimaryButton.tsx
+│   │   │   └── SecondaryButton.tsx
+│   │   ├── Input/     # Form inputs
+│   │   │   ├── TextInput.tsx
+│   │   │   └── PasswordInput.tsx
+│   │   └── Modal/     # Dialog components
+│   │       ├── Modal.tsx
+│   │       └── ConfirmModal.tsx
 │   ├── accounting/    # Domain-specific components
-│   └── shared/       # Cross-feature components
+│   │   ├── Ledger/    # Ledger components
+│   │   │   ├── LedgerEntry.tsx
+│   │   │   └── LedgerSummary.tsx
+│   │   ├── Reports/   # Report components
+│   │   │   ├── ReportTable.tsx
+│   │   │   └── ReportChart.tsx
+│   │   └── Journal/   # Journal entry components
+│   │       ├── JournalEntry.tsx
+│   │       └── JournalList.tsx
+│   └── shared/        # Cross-feature components
+│       ├── Layout/    # Layout components
+│       │   ├── Header.tsx
+│       │   └── Sidebar.tsx
+│       ├── Nav/       # Navigation components
+│       │   ├── NavBar.tsx
+│       │   └── NavItem.tsx
+│       └── Footer/    # Footer components
+│           └── Footer.tsx
 ├── lib/
 │   ├── api/           # API clients
+│   │   ├── auth/      # Auth API functions
+│   │   │   ├── login.ts
+│   │   │   └── register.ts
+│   │   └── supabase/  # Supabase client
+│   │       └── client.ts
 │   ├── hooks/         # Custom hooks
+│   │   ├── auth/      # Authentication hooks
+│   │   │   ├── useAuth.ts
+│   │   │   └── useSession.ts
+│   │   └── form/      # Form handling hooks
+│   │       ├── useForm.ts
+│   │       └── useValidation.ts
 │   ├── utils/         # Helper functions
+│   │   ├── date/      # Date formatting
+│   │   │   ├── formatDate.ts
+│   │   │   └── parseDate.ts
+│   │   └── currency/  # Currency helpers
+│   │       ├── formatCurrency.ts
+│   │       └── convertCurrency.ts
 │   └── validation/    # Zod schemas
+│       ├── auth/      # Auth schemas
+│       │   ├── loginSchema.ts
+│       │   └── registerSchema.ts
+│       └── forms/     # Form schemas
+│           ├── contactFormSchema.ts
+│           └── feedbackFormSchema.ts
 ├── types/             # Global TS types
-```
-
+    ├── api.ts         # API types
+    ├── auth.ts        # Auth types
+    └── supabase.ts    # Database types
+   
 ### 2. Server/Client Separation
 - **Server Components**: Default to server components for:
   - Data fetching

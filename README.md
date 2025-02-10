@@ -19,11 +19,12 @@ A comprehensive system for managing AI interactions through memory management, l
    - Links to related code examples
 
 3. **Scratchpad** (`@scratchpad.md`)
-   - Manages current phase and tasks
+   - Manages current epics, features and user stories
    - Tracks implementation progress
    - Uses clear status markers [X], [-], [ ], [!], [?]
    - Maintains task dependencies
    - Updates confidence metrics
+
 
 ## 🎯 Mode System Operation
 
@@ -216,7 +217,7 @@ AI: ⚡ AGENT MODE ACTIVATED
 .cursor/
 ├── memories.md          # Interaction history
 ├── lessons-learned.md   # Solutions & practices
-├── scratchpad.md       # Current phase tracking
+├── scratchpad.md       # Current epic, feature and user story tracking
 ├── project-requirements.md  # Project specs
 └── rules/              # System rules
     └── .cursorrules    # Core rules file

@@ -54,26 +54,33 @@ Enabled Capabilities (Only when activated):
    - Requirements: Problem diagnosis, root cause analysis, solution verification
    - Process: Plan mode (🎯) → Chain of thought analysis → Agent mode (⚡)
 
-Cross-reference with @memories.md, @lessons-learned.md, @project-requirements.md, docs/phases/PHASE-*.md files for context and best practices.`
+Cross-reference with @memories.md, @lessons-learned.md, @project-requirements.md, docs/epics/EPIC-*.md files for context and best practices.`
 
 SCRATCHPAD MANAGEMENT:
 The Scratchpad system (@scratchpad.md) is your active task management tool. Follow these strict formatting and update rules:
 
-1. Phase Structure (Required format):
+1. Epic Structure (Required format):
 ```
-Current Phase: [PHASE-X]
+Current Epic: [Epic-X]
 Mode Context: [FROM_MODE_SYSTEM]
 Status: [Active/Planning/Review]
 Confidence: [Current percentage]
 Last Updated: [Version]
 
-Tasks:
-[ID-001] Description
+Features:
+[ID-1.1] Description
 Status: [ ] Priority: [High/Medium/Low]
 Dependencies: [List any blockers]
 Progress Notes:
 - [Version] Update details
 ```
+
+User Stories:
+[ID-1.1.1] Description
+Status: [ ] Priority: [High/Medium/Low]
+Dependencies: [List any blockers]
+Progress Notes:
+- [Version] Update details
 
 2. Progress Tracking Rules:
 - Use ONLY these markers:
@@ -84,28 +91,29 @@ Progress Notes:
   [?] = Needs Review (requires verification)
 
 3. Task Management Protocol:
-- Generate unique ID for each task
+- Generate unique ID for each feature and user story
 - Link tasks to Mode System context
 - Update status in real-time
 - Document all changes with timestamps
 - Track dependencies explicitly
-- Maintain task hierarchy
+- Maintain epic, feature and user story hierarchy
 - Cross-reference with memories
 
-4. Phase Transition Rules:
-- Clear completed phase content
-- Archive to /docs/phases/PHASE-X/
-- Initialize new phase structure
+4. Epic Transition Rules:
+- Clear completed epic content
+- Archive to /docs/epics/Epic-X/
+- Initialize new epic structure
 - Maintain mode system context
-- Transfer relevant tasks
+- Transfer relevant user-stories
 - Update confidence metrics
 
 5. Integration Requirements:
 - Sync with Mode System state
 - Update on confidence changes
 - Track all user interactions
-- Maintain task relationships
+- Maintain epic, feature and user story relationships
 - Document decision points
+
 - Link to relevant memories
 
 -------------------MEMORY TRACKING AND DOCUMENTATION PROTOCOL-------------------
@@ -127,11 +135,12 @@ Before any implementation, verify against @docs/project-requirements.md. Issue w
 ⚠️ WARNING: [Category]
 - Project Information: [Project name, description, goals, overview and purpose]
 - List of Project Requirements: [tech stack, UI/UX, design, functionality, performance, security, accessibility, SEO, and other relevant criteria]
-- Roadmap: [Phases, milestones, systematic approach, feature implementation order, best approach based on the project requirements]
+- Roadmap: [EPICS, FEATURES, USER STORIES, systematic approach, feature implementation order, best approach based on the project requirements]
 - Don't create the roadmap first, when the project information is not fully completed. Inform the user if the project information and list of project requirements are not completed.
 
-PHASE DOCUMENTATION:
-When completing a phase, create detailed documentation in /docs/phases/PHASE-X/[FEATURE-NAME].md including:
+
+EPIC DOCUMENTATION:
+When completing an epic, create detailed documentation in /docs/epics/Epic-X/[FEATURE-NAME].md including:
 - Implemented components
 - Technical decisions
 - Code examples
